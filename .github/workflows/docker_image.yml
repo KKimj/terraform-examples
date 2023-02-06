@@ -23,5 +23,5 @@ jobs:
     - name: Build and package
       run: |
         ./gradlew build
-        docker build -t gcr.io/terraformexample-kr/springboot .
+        docker build -t gcr.io/terraformexample-kr/springboot ./
       working-directory: ./springboot
